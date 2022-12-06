@@ -11,6 +11,8 @@ const terser = require("terser");
 const jsArr = [
   path.resolve(__dirname, "src/js/ssm.min.js"),
   path.resolve(__dirname, "src/js/script.js"),
+  path.resolve(__dirname, "src/js/sliders.js"),
+  path.resolve(__dirname, "src/js/menu.js"),
 ];
 
 const files = fs.readdirSync(path.join(__dirname, "src"));

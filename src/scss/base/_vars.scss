@@ -2,10 +2,11 @@
 $google-font: "https://fonts.googleapis.com/css?family=Ubuntu:400,500";
 $prefix: prefix- !default;
 $baseFontSize: 16px;
-$baseFontFamily: "Ubuntu", sans-serif;
+$baseFontFamily: Poppins, Arial, Helvetica, sans-serif;
 $mediumFontWeight: 500;
 
-$mobilePadding: (12px / $baseFontSize) * 1rem;
+$mobilePadding: (
+  12px / $baseFontSize) * 1rem;
 $desktopPadding: 1rem;
 
 // Paths
@@ -31,4 +32,4 @@ $colors: (
   "purple": $purple,
   "pink": $pink,
   "red": $red,
-) !default;
+  ) !default;
